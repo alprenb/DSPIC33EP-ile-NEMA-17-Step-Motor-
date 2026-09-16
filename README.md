@@ -27,6 +27,7 @@ Sistemin donanımsal izolasyonunu artırmak amacıyla sürücü tasarımında PG
 | `RA15` | Pin 8 (M2) | Çıkış | Lojik Low (L) |
 | `RA14` | Pin 9 (M3) | Çıkış | Lojik High (H) - (Full-Step Modu Seçimi) |
 | `RH13` | Pin 4 (LATCH)| Çıkış | Şeffaf/Kayıt Durumu Kontrolü |
+<img width="801" height="750" alt="MOTOR SÜRÜCÜ ŞEMA" src="https://github.com/user-attachments/assets/61ce757e-18bd-4656-a95d-fd1c11fc9b67" />
 
 ## ⚙️ Sistem Mimarisi ve Teknik Detaylar
 
@@ -52,6 +53,8 @@ Proje kodları, donanım birimlerine göre modüller halinde yapılandırılmı�
 * `motor.c / .h`: Timer1 kesme yapılandırması, pin atamaları, TQ ısı yönetim algoritması ve step motor donanım sürme fonksiyonları.
 * `main.c`: Sistemi başlatan ve motorun hedef adım sayısına (hedef konuma) gitmesini tetikleyen ana döngü.
 
+
+
 ---
 *Geliştirici:* Alp Eren
-*Kurum:* Düzce Üniversitesi, Elektrik-Elektronik Mühendisliği
+
